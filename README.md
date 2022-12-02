@@ -10,6 +10,31 @@
 > :cake: is a lie...
 
 #  C++ ![45%][c++_progress]
+1. Introduction
+    - [:green_circle:](https://www.hackerrank.com/challenges/cpp-hello-world/problem) 5x:cherries: [Say "Hello, World!" With C++](C++/introduction/cpp-hello-world.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/cpp-input-and-output/problem) 5x:cherries: [Input and Output](C++/introduction/cpp-input-and-output.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-basic-data-types/problem) 10x:cherries: [Basic Data Types](C++/introduction/basic-data-types.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem) 10x:cherries: [Conditional Statements](C++/introduction/conditional-statements.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem) 10x:cherries: [For Loop](C++/introduction/for-loop.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-functions/problem) 10x:cherries: [Functions](C++/introduction/functions.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-pointer/problem) 10x:cherries: [Pointer](C++/introduction/pointer.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/arrays-introduction/problem) 10x:cherries: [Arrays Introduction](C++/introduction/arrays-introduction.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/variable-sized-arrays/problem) 30x:cherries: [Variable Sized Arrays](C++/introduction/variable-sized-arrays.cpp)
+2. Strings
+    - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-stringstream/problem) 10x:cherries: [StringStream](C++/strings/stringstream.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-strings/problem) 10x:cherries: [Strings](C++/strings/strings.cpp)
+    - [:black_circle:](https://www.hackerrank.com/challenges/attribute-parser/problem) 35x:cherries: Attribute Parser
+3. Classes
+    - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-struct/problem) 10x:cherries: [Structs](C++/classes/struct.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-class/problem) 10x:cherries: [Class](C++/classes/class.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/classes-objects/problem) 20x:cherries: [Classes and Objects](C++/classes/classes-objects.cpp)
+<!---
+    - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem) 30x:cherries: [Box It!](C++/classes/conditional-statements.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem) 30x:cherries: [Inherited Code](C++/classes/for-loop.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/c-tutorial-functions/problem) 30x:cherries: [Exceptional Server](C++/classes/functions.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/c-tutorial-pointer/problem) 40x:cherries: [Virtual Functions](C++/classes/pointer.cpp)
+    - [:red_circle:](https://www.hackerrank.com/challenges/arrays-introduction/problem) 60x:cherries: [Abstract Classes - Polymorphism](C++/classes/arrays-introduction.cpp)
+    -->
 # Problem Solving ![45%][problem_solving_progress]
 # C ![47%][c_progress]
 1. Introduction
