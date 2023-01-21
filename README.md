@@ -9,6 +9,34 @@
 > Score: 5x:cherries:\
 > :cake: is a lie...
 
+# Problem Solving
+Warmup
+    - :green_circle: [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem) 1x:cherries: [C++](problem-solving/warmup/solve-me-first.cpp)
+    - :green_circle: [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) 10x:cherries: [C++](problem-solving/warmup/simple-array-sum.cpp)
+    - :green_circle: [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem) 10x:cherries: [C++](problem-solving/warmup/compare-the-triplets.cpp)
+    - :green_circle: [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem) 10x:cherries: [C++](problem-solving/warmup/a-very-big-sum.cpp)
+    - :green_circle: [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem) 10x:cherries: [C++](problem-solving/warmup/diagonal-difference.cpp)
+    - :green_circle: [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem) 10x:cherries: [C++](problem-solving/warmup/plus-minus.cpp)
+    - :green_circle: [Staircase](https://www.hackerrank.com/challenges/staircase/problem) 10x:cherries: [C++](problem-solving/warmup/staircase.cpp)
+    - :green_circle: [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem) 10x:cherries: [C++](problem-solving/warmup/mini-max-sum.cpp)
+    - :green_circle: [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem) 10x:cherries: [C++](problem-solving/warmup/birthday-cake-candles.cpp)
+    - :green_circle: [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem) 15x:cherries: [C++](problem-solving/warmup/time-conversion.cpp)
+<!---
+Implementation
+Strings
+Sorting
+Search
+Graph Theory
+Greedy
+Dynamic Programming
+Constructive Algorithms
+Bit Manipulation
+Recursion
+Game Theory
+NP Complete
+Debugging
+-->
+
 #  C++ ![45%][c++_progress]
 1. Introduction
     - [:green_circle:](https://www.hackerrank.com/challenges/cpp-hello-world/problem) 5x:cherries: [Say "Hello, World!" With C++](C++/introduction/cpp-hello-world.cpp)
@@ -35,7 +63,6 @@
     - [:orange_circle:](https://www.hackerrank.com/challenges/c-tutorial-pointer/problem) 40x:cherries: [Virtual Functions](C++/classes/pointer.cpp)
     - [:red_circle:](https://www.hackerrank.com/challenges/arrays-introduction/problem) 60x:cherries: [Abstract Classes - Polymorphism](C++/classes/arrays-introduction.cpp)
     -->
-# Problem Solving ![45%][problem_solving_progress]
 # C ![47%][c_progress]
 1. Introduction
     - [:green_circle:](https://www.hackerrank.com/challenges/hello-world-c/problem) 5x:cherries: ["Hello World!" in C](C/introduction/hello-world-c.c)
