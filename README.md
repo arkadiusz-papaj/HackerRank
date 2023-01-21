@@ -5,22 +5,22 @@
 > THIS IS MORE LIKE PERSONAL ENGINEER-DEVELOPER NOTEBOOK RATHER THAN REPO WITH BEST-AND-OPTIMAL SOLUTIONS!\
 > Created this to track and motivate myself to "keep in programming shape".\
 > Problem description is under the circle, followed by link to my solution\
-> :green_circle: Easy :orange_circle: Medium :red_circle: Hard :black_circle: not done yet\
+> :green_circle: Easy :orange_circle: Medium :red_circle: Hard\
 > Score: 5x:cherries:\
 > :cake: is a lie...
 
 # Problem Solving
-Warmup
-    - :green_circle: [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem) 1x:cherries: [C++](problem-solving/warmup/solve-me-first.cpp)
-    - :green_circle: [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) 10x:cherries: [C++](problem-solving/warmup/simple-array-sum.cpp)
-    - :green_circle: [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem) 10x:cherries: [C++](problem-solving/warmup/compare-the-triplets.cpp)
-    - :green_circle: [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem) 10x:cherries: [C++](problem-solving/warmup/a-very-big-sum.cpp)
-    - :green_circle: [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem) 10x:cherries: [C++](problem-solving/warmup/diagonal-difference.cpp)
-    - :green_circle: [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem) 10x:cherries: [C++](problem-solving/warmup/plus-minus.cpp)
-    - :green_circle: [Staircase](https://www.hackerrank.com/challenges/staircase/problem) 10x:cherries: [C++](problem-solving/warmup/staircase.cpp)
-    - :green_circle: [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem) 10x:cherries: [C++](problem-solving/warmup/mini-max-sum.cpp)
-    - :green_circle: [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem) 10x:cherries: [C++](problem-solving/warmup/birthday-cake-candles.cpp)
-    - :green_circle: [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem) 15x:cherries: [C++](problem-solving/warmup/time-conversion.cpp)
+1. Warmup
+    - :green_circle: 1x:cherries: [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem) - [C++](problem-solving/warmup/solve-me-first.cpp)
+    - :green_circle: 10x:cherries: [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) - [C++](problem-solving/warmup/simple-array-sum.cpp)
+    - :green_circle: 10x:cherries: [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem) - [C++](problem-solving/warmup/compare-the-triplets.cpp)
+    - :green_circle: 10x:cherries: [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem) - [C++](problem-solving/warmup/a-very-big-sum.cpp)
+    - :green_circle: 10x:cherries: [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem) - [C++](problem-solving/warmup/diagonal-difference.cpp)
+    - :green_circle: 10x:cherries: [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem) - [C++](problem-solving/warmup/plus-minus.cpp)
+    - :green_circle: 10x:cherries: [Staircase](https://www.hackerrank.com/challenges/staircase/problem) - [C++](problem-solving/warmup/staircase.cpp)
+    - :green_circle: 10x:cherries: [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem) - [C++](problem-solving/warmup/mini-max-sum.cpp)
+    - :green_circle: 10x:cherries: [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem) - [C++](problem-solving/warmup/birthday-cake-candles.cpp)
+    - :green_circle: 15x:cherries: [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem) - [C++](problem-solving/warmup/time-conversion.cpp)
 <!---
 Implementation
 Strings
