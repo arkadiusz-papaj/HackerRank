@@ -1,4 +1,6 @@
 #include <cassert>
+#include <vector>
+
 /*
  * Complete the 'compareTriplets' function below.
  *
@@ -8,10 +10,10 @@
  *  2. INTEGER_ARRAY b
  */
 
-[[nodiscard]] auto compareTriplets(vector<int> a, vector<int> b) -> vector<int> {
+[[nodiscard]] auto compareTriplets(std::vector<int> a, std::vector<int> b) -> std::vector<int> {
     assert(a.size() == b.size());
 
-    auto points = vector<int>{0, 0};
+    auto points = std::vector<int>{0, 0};
     
     for (size_t i = 0; i < a.size(); i++){
         if (a.at(i) > b.at(i)) ++(points.at(0));
