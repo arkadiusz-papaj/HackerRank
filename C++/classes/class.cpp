@@ -4,48 +4,51 @@ using namespace std;
 
 class Student
 {
-    public:
-        void set_age(int age){this->age = age;};
-        void set_first_name(string & name){this->first_name = std::move(name);};
-        void set_last_name(string & name){this->last_name = std::move(name);};
-        void set_standard(int standard){this->standard = standard;};
-        
-        int get_age(){return age;};
-        string get_first_name(){return first_name;};
-        string get_last_name(){return last_name;};
-        int get_standard(){return standard;};
-        
-        string to_string()
-        {
-            stringstream ss;
-            ss << age << "," << first_name << "," << last_name << "," << standard;
-            return ss.str();
-        };
-        
-    private:
-        int age;
-        string first_name;
-        string last_name;
-        int standard;  
+public:
+    constexpr auto set_age(int age) noexcept -> void {this->age = age;};
+    constexpr auto set_standard(int standard) noexcept -> void {this->standard = standard;};
+    auto set_first_name(string name) noexcept -> void {this->first_name = std::move(name);};
+    auto set_last_name(string name) noexcept -> void {this->last_name = std::move(name);};
+
+    [[nodiscard]] constexpr auto get_age() const noexcept -> int {return age;};
+    [[nodiscard]] constexpr auto get_standard() const noexcept -> int {return standard;};
+    [[nodiscard]] auto get_first_name() const noexcept -> std::string {return first_name;};
+    [[nodiscard]] auto get_last_name() const noexcept -> std::string {return last_name;};
+
+    auto to_string() const noexcept -> std::string 
+    {
+        stringstream stream;
+        stream << age << "," << first_name << "," << last_name << "," << standard;
+        return stream.str();
+    };
+ 
+private:
+    int age{};
+    int standard{}; 
+    std::string first_name{};
+    std::string last_name{};
 };
 
-int main() {
-    int age, standard;
-    string first_name, last_name;
+int main()
+{
+    auto age = int{};
+    auto standard = int{};
+    auto first_name = std::string{};
+    auto last_name = std::string();
     
-    cin >> age >> first_name >> last_name >> standard;
+    std::cin >> age >> first_name >> last_name >> standard;
     
-    Student st;
-    st.set_age(age);
-    st.set_standard(standard);
-    st.set_first_name(first_name);
-    st.set_last_name(last_name);
+    auto student = Student{};
+    student.set_age(age);
+    student.set_standard(standard);
+    student.set_first_name(first_name);
+    student.set_last_name(last_name);
     
-    cout << st.get_age() << "\n";
-    cout << st.get_last_name() << ", " << st.get_first_name() << "\n";
-    cout << st.get_standard() << "\n";
-    cout << "\n";
-    cout << st.to_string();
+    std::cout << student.get_age() << "\n";
+    std::cout << student.get_last_name() << ", " << student.get_first_name() << "\n";
+    std::cout << student.get_standard() << "\n";
+    std::cout << "\n";
+    std::cout << student.to_string();
     
     return 0;
 }

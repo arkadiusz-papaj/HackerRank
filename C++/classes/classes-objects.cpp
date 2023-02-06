@@ -1,23 +1,29 @@
 #include <numeric>
+#include <vector>
+#include <iostream>
+
 class Student
 {
-    public:
-        void input();
-        int calculateTotalScore();
-    private:
-        vector<int> scores;
+public:
+    auto input() -> void;
+    [[nodiscard]] auto calculateTotalScore() const -> int;
+private:
+    std::vector<int> scores{};
 };
-void Student::input()
+
+auto Student::input() -> void
 {
-    int score;
-    for (int i = 0; i < 5; i++)
-    {
-        cin >> score;
-        scores.push_back(score);
+    auto score = int{};
+    constexpr auto no_of_scores = int{5};
+    scores.reserve(no_of_scores);
+
+    for (auto i = int{0}; i < no_of_scores; i++) {
+        std::cin >> score;
+        scores.emplace_back(score);
     }
 };
 
-int Student::calculateTotalScore()
+auto Student::calculateTotalScore() const -> int
 {
     return std::accumulate(scores.begin(), scores.end(), 0);
 };

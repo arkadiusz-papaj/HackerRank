@@ -7,17 +7,24 @@ using namespace std;
 
 struct Student
 {
-   int age {0};
-   string first_name {""};
-   string last_name {""};
-   int standard {0}; 
+   int age{};
+   int standard{}; 
+   string first_name{};
+   string last_name{};
+
+   friend auto operator<<(ostream& out, Student const& rhs) -> ostream&;
+};
+
+auto operator<<(ostream& out, Student const& rhs) -> ostream& {
+    out << rhs.age << " " << rhs.first_name << " " << rhs.last_name << " " << rhs.standard;
+    return out;
 };
 
 int main() {
-    Student st;
+    auto student = Student{};
     
-    cin >> st.age >> st.first_name >> st.last_name >> st.standard;
-    cout << st.age << " " << st.first_name << " " << st.last_name << " " << st.standard;
+    std::cin >> student.age >> student.first_name >> student.last_name >> student.standard;
+    std::cout << student;
     
     return 0;
 }

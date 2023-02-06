@@ -4,8 +4,8 @@
 > __Warning__\
 > THIS IS MORE LIKE PERSONAL ENGINEER-DEVELOPER NOTEBOOK RATHER THAN REPO WITH BEST-AND-OPTIMAL SOLUTIONS!\
 > Created this to track and motivate myself to "keep in programming shape".\
-> Problem description might be under the circle (C and C++) or name, followed by link to my solution\
-> :green_circle: Easy :orange_circle: Medium :red_circle: Hard\
+> Problem description might be under the circle (C and C++) or name, followed by link to my solution. Some solutions "might" look ancient because some problems provide part of code to work with.\
+> :green_circle: Easy :orange_circle: Medium :red_circle: Hard
 
 # Problem Solving
 Algorithms
@@ -84,18 +84,39 @@ Advanced
 2. Strings
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-stringstream/problem) 10x:cherries: [StringStream](C++/strings/stringstream.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-strings/problem) 10x:cherries: [Strings](C++/strings/strings.cpp)
-    - [:black_circle:](https://www.hackerrank.com/challenges/attribute-parser/problem) 35x:cherries: Attribute Parser
 3. Classes
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-struct/problem) 10x:cherries: [Structs](C++/classes/struct.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-class/problem) 10x:cherries: [Class](C++/classes/class.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/classes-objects/problem) 20x:cherries: [Classes and Objects](C++/classes/classes-objects.cpp)
-<!---
-    - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem) 30x:cherries: [Box It!](C++/classes/conditional-statements.cpp)
-    - [:orange_circle:](https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem) 30x:cherries: [Inherited Code](C++/classes/for-loop.cpp)
-    - [:orange_circle:](https://www.hackerrank.com/challenges/c-tutorial-functions/problem) 30x:cherries: [Exceptional Server](C++/classes/functions.cpp)
-    - [:orange_circle:](https://www.hackerrank.com/challenges/c-tutorial-pointer/problem) 40x:cherries: [Virtual Functions](C++/classes/pointer.cpp)
-    - [:red_circle:](https://www.hackerrank.com/challenges/arrays-introduction/problem) 60x:cherries: [Abstract Classes - Polymorphism](C++/classes/arrays-introduction.cpp)
-    -->
+    - [:green_circle:](https://www.hackerrank.com/challenges/box-it/problem) 30x:cherries: [Box It!](C++/classes/box-it.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/inherited-code/problem) 30x:cherries: [Inherited Code](C++/classes/inherited-code.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/exceptional-server/problem) 30x:cherries: [Exceptional Server](C++/classes/exceptional-server.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/virtual-functions/problem) 40x:cherries: [Virtual Functions](C++/classes/virtual-functions.cpp)
+4. STL
+    - [:green_circle:](https://www.hackerrank.com/challenges/vector-sort/problem) 10x:cherries: [Vector-Sort](C++/stl/vector-sort.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/vector-erase/problem) 10x:cherries: [Vector-Erase](C++/stl/vector-erase.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/cpp-lower-bound/problem) 20x:cherries: [Lower Bound-STL](C++/stl/cpp-lower-bound.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/cpp-sets/problem) 30x:cherries: [Sets-STL](C++/stl/cpp-sets.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/cpp-maps/problem) 30x:cherries: [Maps-STL](C++/stl/cpp-maps.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/prettyprint/problem) 30x:cherries: [Print Pretty](C++/stl/prettyprint.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/deque-stl/problem) 40x:cherries: [Deque-STL](C++/stl/deque-stl.cpp)
+5. Inheritance
+    - [:green_circle:](https://www.hackerrank.com/challenges/inheritance-introduction/problem) 10x:cherries: [Inheritance Introduction](C++/inheritance/inheritance-introduction.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/rectangle-area/problem) 10x:cherries: [Rectangle Area](C++/inheritance/rectangle-area.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/multi-level-inheritance-cpp/problem) 20x:cherries: [Multi Level Inheritance](C++/inheritance/multi-level-inheritance.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem) 30x:cherries: [Accessing Inherited Functions](C++/inheritance/accessing-inherited-functions.cpp)
+6. Debugging
+    - [:orange_circle:](https://www.hackerrank.com/challenges/hotel-prices/problem) 10x:cherries: [Hotel Prices](C++/inheritance/hotel-prices.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/cpp-exception-handling/problem) 10x:cherries: [Cpp exception handling](C++/inheritance/cpp-exception-handling.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/overloading-ostream-operator/problem) 20x:cherries: [Overloading Ostream Operator](C++/inheritance/overloading-ostream-operator.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/messages-order/problem) 30x:cherries: [Messages Order](C++/inheritance/messages-order.cpp)
+7. Other Concepts
+    - [:orange_circle:](https://www.hackerrank.com/challenges/c-class-templates/problem) 10x:cherries: [C++ Class Templates](C++/other-concepts/c-class-templates.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/preprocessor-solution/problem) 10x:cherries: [Preprocessor Solution](C++/other-concepts/preprocessor-solution.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/operator-overloading/problem) 20x:cherries: [Operator Overloading](C++/other-concepts/operator-overloading.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/overload-operators/problem) 30x:cherries: [Overload Operators](C++/other-concepts/overload-operators.cpp)
+     - [:orange_circle:](https://www.hackerrank.com/challenges/attending-workshops/problem) 20x:cherries: [Attending Workshops](C++/other-concepts/attending-workshops.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/cpp-class-template-specialization/problem) 30x:cherries: [C++ Class Template Specialization](C++/other-concepts/cpp-class-template-specialization.cpp)
 # C
 1. Introduction
     - [:green_circle:](https://www.hackerrank.com/challenges/hello-world-c/problem) 5x:cherries: ["Hello World!" in C](C/introduction/hello-world-c.c)
@@ -108,7 +129,6 @@ Advanced
     - [:green_circle:](https://www.hackerrank.com/challenges/for-loop-in-c/problem) 10x:cherries: [For Loop in C](C/conditionals-and-loops/for-loop-in-c.c)
     - [:green_circle:](https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem) 15x:cherries: [Sum of Digits of a Five Digit Number](C/conditionals-and-loops/sum-of-digits-of-a-five-digit-number.c)
     - [:green_circle:](https://www.hackerrank.com/challenges/bitwise-operators-in-c/problem) 15x:cherries: [Bitwise Operators](C/conditionals-and-loops/bitwise-operators-in-c.c)
-    - [:black_circle:](https://www.hackerrank.com/challenges/printing-pattern-2/problem) 30x:cherries: Printing Pattern Using Loops
 3. Arrays and Strings
     - [:orange_circle:](https://www.hackerrank.com/challenges/1d-arrays-in-c/problem) 10x:cherries: [1D Arrays in C](C/arrays-and-strings/1d-arrays-in-c.c)
     - [:orange_circle:](https://www.hackerrank.com/challenges/reverse-array-c/problem) 20x:cherries: [Array Reversal](C/arrays-and-strings/reverse-array-c.c)
@@ -118,14 +138,9 @@ Advanced
 4. Functions
     - [:green_circle:](https://www.hackerrank.com/challenges/recursion-in-c/problem) 15x:cherries: [Calculate the Nth term](C/functions/calculate-the-nth-term.c)
     - [:green_circle:](https://www.hackerrank.com/challenges/students-marks-sum/problem) 20x:cherries: [Students Marks Sum](C/functions/students-marks-sum.c)
-    - [:black_circle:](https://www.hackerrank.com/challenges/permutations-of-strings/problem) 40x:cherries: Permutations of Strings
     - [:orange_circle:](https://www.hackerrank.com/challenges/variadic-functions-in-c/problem) 50x:cherries: [Variadic functions in C](C/functions/variadic-functions-in-c.c)
-    - [:black_circle:](https://www.hackerrank.com/challenges/sorting-array-of-strings/problem) 40x:cherries: Sorting Array of Strings
-    - [:black_circle:](https://www.hackerrank.com/challenges/querying-the-document/problem) 60x:cherries: Querying the Document
 5. Structs and Enums
     - [:green_circle:](https://www.hackerrank.com/challenges/too-high-boxes/problem) 25x:cherries: [Boxes through a Tunnel](C/structs-and-enums/boxes-through-a-tunnel.c)
     - [:orange_circle:](https://www.hackerrank.com/challenges/small-triangles-large-triangles/problem) 30x:cherries: [Small Triangles, Large Triangles](C/structs-and-enums/small-triangles-large-triangles.c)
-    - [:black_circle:](https://www.hackerrank.com/challenges/post-transition/problem) 50x:cherries: Post Transition
-    - [:black_circle:](https://www.hackerrank.com/challenges/structuring-the-document/problem) 60x:cherries: Structuring the Document
 
 [HR_logo]: https://hrcdn.net/fcore/assets/brand/logo-new-white-green-a5cb16e0ae.svg
