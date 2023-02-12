@@ -37,12 +37,12 @@ int main()
 	auto no_of_tests = unsigned{};
     std::cin >> no_of_tests;
 
-    for (auto i = unsigned{0}; i < no_of_tests; no_of_tests++) {
+    for (auto i = unsigned{0}; i < no_of_tests; i++) {
         auto index1 = int{};
         auto index2 = int{};
         std::cin >> index1;
         std::cin >> index2;
-        cout << Traits<Color>::name(index1) << " ";
-        cout << Traits<Fruit>::name(index2) << "\n";
+        std::cout << Traits<Color>::name(index1) << " ";
+        std::cout << Traits<Fruit>::name(index2) << "\n";
     }
 }

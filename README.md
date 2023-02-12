@@ -9,8 +9,8 @@
 
 # Problem Solving
 Algorithms
-1. Warmup
-    - :green_circle: [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem) - [C++](problem-solving/algorithms/warmup/solve-me-first.cpp)
+1. Warmup :white_check_mark:
+    - :green_circle: 1x:cherries:[Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem) - [C++](problem-solving/algorithms/warmup/solve-me-first.cpp)
     - :green_circle: 10x:cherries: [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) - [C++](problem-solving/algorithms/warmup/simple-array-sum.cpp)
     - :green_circle: 10x:cherries: [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem) - [C++](problem-solving/algorithms/warmup/compare-the-triplets.cpp)
     - :green_circle: 10x:cherries: [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem) - [C++](problem-solving/algorithms/warmup/a-very-big-sum.cpp)
@@ -20,27 +20,38 @@ Algorithms
     - :green_circle: 10x:cherries: [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem) - [C++](problem-solving/algorithms/warmup/mini-max-sum.cpp)
     - :green_circle: 10x:cherries: [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem) - [C++](problem-solving/algorithms/warmup/birthday-cake-candles.cpp)
     - :green_circle: 15x:cherries: [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem) - [C++](problem-solving/algorithms/warmup/time-conversion.cpp)
-<!---
-Implementation
-Strings
-Sorting
-Search
-Graph Theory
-Greedy
-Dynamic Programming
-Constructive Algorithms
-Bit Manipulation
-Recursion
-Game Theory
-NP Complete
-Debugging
--->
+
+2. Implementation
+    - :green_circle: 10x:cherries: [Grading Students](https://www.hackerrank.com/challenges/grading/problem) - [C++](problem-solving/algorithms/warmup/grading.cpp)
+    - :green_circle: 10x:cherries: [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem) - [C++](problem-solving/algorithms/warmup/apple-and-orange.cpp)
+    - :green_circle: 10x:cherries: [Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo/problem) - [C++](problem-solving/algorithms/warmup/kangaroo.cpp)
+    - :green_circle: 10x:cherries: [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem) - [C++](problem-solving/algorithms/warmup/breaking-best-and-worst-records.cpp)
+    - :green_circle: 10x:cherries: [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem) - [C++](problem-solving/algorithms/warmup/the-birthday-bar.cpp)
+    - :green_circle: 10x:cherries: [Bill Division](https://www.hackerrank.com/challenges/bon-appetit/problem) - [C++](problem-solving/algorithms/warmup/bill-division.cpp)
+    - :green_circle: 10x:cherries: [Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem) - [C++](problem-solving/algorithms/warmup/sales-by-match.cpp)
+3. Strings
+4. Sorting
+    - :green_circle: 15x:cherries: [Big Sorting](https://www.hackerrank.com/challenges/big-sorting/problem) - [C++](problem-solving/algorithms/sorting/big-sorting.cpp)
+    - :green_circle: 15x:cherries: [tutorial-intro](https://www.hackerrank.com/challenges/tutorial-intro/problem) - [C++](problem-solving/algorithms/sorting/tutorial-intro.cpp)
+5. Search
+6. Graph Theory
+7. Greedy
+8. Dynamic Programming
+9. Constructive Algorithms
+10. Bit Manipulation
+11. Recursion
+12. Game Theory
+13. NP Complete
+14. Debugging
+
 Data Structures
-1. Arrays
+1. Arrays :white_check_mark:
     - :green_circle: 10x:cherries: [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds/problem) - [C++](problem-solving/data-structures/arrays/arrays-ds.cpp)
     - :green_circle: 15x:cherries: [2D Array - DS](https://www.hackerrank.com/challenges/2d-array/problem) - [C++](problem-solving/data-structures/arrays/2d-array.cpp)
+    - :green_circle: 15x:cherries: [Dynamic Array](https://www.hackerrank.com/challenges/dynamic-array/problem) - [C++](problem-solving/data-structures/arrays/dynamic-array.cpp)
     - :green_circle: 20x:cherries: [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation/problem) - [C++](problem-solving/data-structures/arrays/array-left-rotation.cpp)
     - :orange_circle: 25x:cherries: [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem) - [C++](problem-solving/data-structures/arrays/sparse-arrays.cpp)
+    - :red_circle: 60x:cherries: [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem) - [C++](problem-solving/data-structures/arrays/prefix-sum-array.cpp)
 2. Linked Lists
     - :green_circle: 5x:cherries: [Print the Elements of a Linked List](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem) - [C++](problem-solving/data-structures/linked-lists/print-the-elements-of-a-linked-list.cpp)
     - :green_circle: 5x:cherries: [Insert a node at the tail of a Linked List](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem) - [C++](problem-solving/data-structures/linked-lists/insert-a-node-at-the-tail-of-a-linked-list.cpp)
@@ -71,7 +82,7 @@ Trie
 Advanced
 -->
 #  C++
-1. Introduction
+1. Introduction :white_check_mark:
     - [:green_circle:](https://www.hackerrank.com/challenges/cpp-hello-world/problem) 5x:cherries: [Say "Hello, World!" With C++](C++/introduction/cpp-hello-world.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/cpp-input-and-output/problem) 5x:cherries: [Input and Output](C++/introduction/cpp-input-and-output.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-basic-data-types/problem) 10x:cherries: [Basic Data Types](C++/introduction/basic-data-types.cpp)
@@ -95,30 +106,30 @@ Advanced
 4. STL
     - [:green_circle:](https://www.hackerrank.com/challenges/vector-sort/problem) 10x:cherries: [Vector-Sort](C++/stl/vector-sort.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/vector-erase/problem) 10x:cherries: [Vector-Erase](C++/stl/vector-erase.cpp)
-    - [:green_circle:](https://www.hackerrank.com/challenges/cpp-lower-bound/problem) 20x:cherries: [Lower Bound-STL](C++/stl/cpp-lower-bound.cpp)
-    - [:green_circle:](https://www.hackerrank.com/challenges/cpp-sets/problem) 30x:cherries: [Sets-STL](C++/stl/cpp-sets.cpp)
-    - [:green_circle:](https://www.hackerrank.com/challenges/cpp-maps/problem) 30x:cherries: [Maps-STL](C++/stl/cpp-maps.cpp)
-    - [:green_circle:](https://www.hackerrank.com/challenges/prettyprint/problem) 30x:cherries: [Print Pretty](C++/stl/prettyprint.cpp)
-    - [:orange_circle:](https://www.hackerrank.com/challenges/deque-stl/problem) 40x:cherries: [Deque-STL](C++/stl/deque-stl.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/cpp-lower-bound/problem) 15x:cherries: [Lower Bound-STL](C++/stl/cpp-lower-bound.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/cpp-sets/problem) 15x:cherries: [Sets-STL](C++/stl/cpp-sets.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/cpp-maps/problem) 15x:cherries: [Maps-STL](C++/stl/cpp-maps.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/prettyprint/problem) 20x:cherries: [Print Pretty](C++/stl/prettyprint.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/deque-stl/problem) 50x:cherries: [Deque-STL](C++/stl/deque-stl.cpp)
 5. Inheritance
-    - [:green_circle:](https://www.hackerrank.com/challenges/inheritance-introduction/problem) 10x:cherries: [Inheritance Introduction](C++/inheritance/inheritance-introduction.cpp)
-    - [:green_circle:](https://www.hackerrank.com/challenges/rectangle-area/problem) 10x:cherries: [Rectangle Area](C++/inheritance/rectangle-area.cpp)
-    - [:green_circle:](https://www.hackerrank.com/challenges/multi-level-inheritance-cpp/problem) 20x:cherries: [Multi Level Inheritance](C++/inheritance/multi-level-inheritance.cpp)
-    - [:green_circle:](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem) 30x:cherries: [Accessing Inherited Functions](C++/inheritance/accessing-inherited-functions.cpp)
-6. Debugging
-    - [:orange_circle:](https://www.hackerrank.com/challenges/hotel-prices/problem) 10x:cherries: [Hotel Prices](C++/inheritance/hotel-prices.cpp)
-    - [:orange_circle:](https://www.hackerrank.com/challenges/cpp-exception-handling/problem) 10x:cherries: [Cpp exception handling](C++/inheritance/cpp-exception-handling.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/inheritance-introduction/problem) 20x:cherries: [Inheritance Introduction](C++/inheritance/inheritance-introduction.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/rectangle-area/problem) 25x:cherries: [Rectangle Area](C++/inheritance/rectangle-area.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/multi-level-inheritance-cpp/problem) 25x:cherries: [Multi Level Inheritance](C++/inheritance/multi-level-inheritance.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem) 30x:cherries: [Accessing Inherited Functions](C++/inheritance/accessing-inherited-functions.cpp)
+6. Debugging :white_check_mark:
+    - [:orange_circle:](https://www.hackerrank.com/challenges/hotel-prices/problem) 15x:cherries: [Hotel Prices](C++/inheritance/hotel-prices.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/cpp-exception-handling/problem) 20x:cherries: [Cpp exception handling](C++/inheritance/cpp-exception-handling.cpp)
     - [:orange_circle:](https://www.hackerrank.com/challenges/overloading-ostream-operator/problem) 20x:cherries: [Overloading Ostream Operator](C++/inheritance/overloading-ostream-operator.cpp)
-    - [:orange_circle:](https://www.hackerrank.com/challenges/messages-order/problem) 30x:cherries: [Messages Order](C++/inheritance/messages-order.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/messages-order/problem) 40x:cherries: [Messages Order](C++/inheritance/messages-order.cpp)
 7. Other Concepts
-    - [:orange_circle:](https://www.hackerrank.com/challenges/c-class-templates/problem) 10x:cherries: [C++ Class Templates](C++/other-concepts/c-class-templates.cpp)
-    - [:orange_circle:](https://www.hackerrank.com/challenges/preprocessor-solution/problem) 10x:cherries: [Preprocessor Solution](C++/other-concepts/preprocessor-solution.cpp)
-    - [:orange_circle:](https://www.hackerrank.com/challenges/operator-overloading/problem) 20x:cherries: [Operator Overloading](C++/other-concepts/operator-overloading.cpp)
-    - [:orange_circle:](https://www.hackerrank.com/challenges/overload-operators/problem) 30x:cherries: [Overload Operators](C++/other-concepts/overload-operators.cpp)
-     - [:orange_circle:](https://www.hackerrank.com/challenges/attending-workshops/problem) 20x:cherries: [Attending Workshops](C++/other-concepts/attending-workshops.cpp)
-    - [:orange_circle:](https://www.hackerrank.com/challenges/cpp-class-template-specialization/problem) 30x:cherries: [C++ Class Template Specialization](C++/other-concepts/cpp-class-template-specialization.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/c-class-templates/problem) 20x:cherries: [C++ Class Templates](C++/other-concepts/c-class-templates.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/preprocessor-solution/problem) 25x:cherries: [Preprocessor Solution](C++/other-concepts/preprocessor-solution.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/operator-overloading/problem) 25x:cherries: [Operator Overloading](C++/other-concepts/operator-overloading.cpp)
+    - [:green_circle:](https://www.hackerrank.com/challenges/overload-operators/problem) 30x:cherries: [Overload Operators](C++/other-concepts/overload-operators.cpp)
+     - [:orange_circle:](https://www.hackerrank.com/challenges/attending-workshops/problem) 35x:cherries: [Attending Workshops](C++/other-concepts/attending-workshops.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/cpp-class-template-specialization/problem) 35x:cherries: [C++ Class Template Specialization](C++/other-concepts/cpp-class-template-specialization.cpp)
 # C
-1. Introduction
+1. Introduction :white_check_mark:
     - [:green_circle:](https://www.hackerrank.com/challenges/hello-world-c/problem) 5x:cherries: ["Hello World!" in C](C/introduction/hello-world-c.c)
     - [:green_circle:](https://www.hackerrank.com/challenges/playing-with-characters/problem) 5x:cherries: [Playing With Characters](C/introduction/playing-with-characters.c)
     - [:green_circle:](https://www.hackerrank.com/challenges/sum-numbers-c/problem) 5x:cherries: [Sum and Difference of Two Numbers](C/introduction/sum-numbers-c.c)
@@ -129,7 +140,7 @@ Advanced
     - [:green_circle:](https://www.hackerrank.com/challenges/for-loop-in-c/problem) 10x:cherries: [For Loop in C](C/conditionals-and-loops/for-loop-in-c.c)
     - [:green_circle:](https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem) 15x:cherries: [Sum of Digits of a Five Digit Number](C/conditionals-and-loops/sum-of-digits-of-a-five-digit-number.c)
     - [:green_circle:](https://www.hackerrank.com/challenges/bitwise-operators-in-c/problem) 15x:cherries: [Bitwise Operators](C/conditionals-and-loops/bitwise-operators-in-c.c)
-3. Arrays and Strings
+3. Arrays and Strings :white_check_mark:
     - [:orange_circle:](https://www.hackerrank.com/challenges/1d-arrays-in-c/problem) 10x:cherries: [1D Arrays in C](C/arrays-and-strings/1d-arrays-in-c.c)
     - [:orange_circle:](https://www.hackerrank.com/challenges/reverse-array-c/problem) 20x:cherries: [Array Reversal](C/arrays-and-strings/reverse-array-c.c)
     - [:orange_circle:](https://www.hackerrank.com/challenges/printing-tokens-/problem) 20x:cherries: [Printing Tokens](C/arrays-and-strings/printing-tokens.c)
