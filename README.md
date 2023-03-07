@@ -95,7 +95,7 @@ Advanced
 2. Strings
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-stringstream/problem) 10x:cherries: [StringStream](C++/strings/stringstream.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-strings/problem) 10x:cherries: [Strings](C++/strings/strings.cpp)
-3. Classes
+3. Classes :white_check_mark:
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-struct/problem) 10x:cherries: [Structs](C++/classes/struct.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-class/problem) 10x:cherries: [Class](C++/classes/class.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/classes-objects/problem) 20x:cherries: [Classes and Objects](C++/classes/classes-objects.cpp)
@@ -103,31 +103,35 @@ Advanced
     - [:orange_circle:](https://www.hackerrank.com/challenges/inherited-code/problem) 30x:cherries: [Inherited Code](C++/classes/inherited-code.cpp)
     - [:orange_circle:](https://www.hackerrank.com/challenges/exceptional-server/problem) 30x:cherries: [Exceptional Server](C++/classes/exceptional-server.cpp)
     - [:orange_circle:](https://www.hackerrank.com/challenges/virtual-functions/problem) 40x:cherries: [Virtual Functions](C++/classes/virtual-functions.cpp)
-4. STL
+    - [:red_circle:](https://www.hackerrank.com/challenges/abstract-classes-polymorphism) 60x:cherries: [Abstract Classes - Polymorphism](C++/classes/lru-cache.cpp)
+4. STL :white_check_mark:
     - [:green_circle:](https://www.hackerrank.com/challenges/vector-sort/problem) 10x:cherries: [Vector-Sort](C++/stl/vector-sort.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/vector-erase/problem) 10x:cherries: [Vector-Erase](C++/stl/vector-erase.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/cpp-lower-bound/problem) 15x:cherries: [Lower Bound-STL](C++/stl/cpp-lower-bound.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/cpp-sets/problem) 15x:cherries: [Sets-STL](C++/stl/cpp-sets.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/cpp-maps/problem) 15x:cherries: [Maps-STL](C++/stl/cpp-maps.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/prettyprint/problem) 20x:cherries: [Print Pretty](C++/stl/prettyprint.cpp)
-    - [:orange_circle:](https://www.hackerrank.com/challenges/deque-stl/problem) 50x:cherries: [Deque-STL](C++/stl/deque-stl.cpp)
-5. Inheritance
+    - [:orange_circle:](https://www.hackerrank.com/challenges/deque-stl/problem) 50x:cherries: [Deque-STL](C++/stl/deque-stl.cpp) optimum sliding window algorithm
+5. Inheritance :white_check_mark:
     - [:green_circle:](https://www.hackerrank.com/challenges/inheritance-introduction/problem) 20x:cherries: [Inheritance Introduction](C++/inheritance/inheritance-introduction.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/rectangle-area/problem) 25x:cherries: [Rectangle Area](C++/inheritance/rectangle-area.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/multi-level-inheritance-cpp/problem) 25x:cherries: [Multi Level Inheritance](C++/inheritance/multi-level-inheritance.cpp)
     - [:orange_circle:](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem) 30x:cherries: [Accessing Inherited Functions](C++/inheritance/accessing-inherited-functions.cpp)
+    - [:red_circle:](https://www.hackerrank.com/challenges/magic-spells/problem) 40x:cherries: [Magic Spells](C++/inheritance/magic-spells.cpp) Longest Common Subsequence algorithm (dynamic_cast in original problem)
 6. Debugging :white_check_mark:
     - [:orange_circle:](https://www.hackerrank.com/challenges/hotel-prices/problem) 15x:cherries: [Hotel Prices](C++/inheritance/hotel-prices.cpp)
     - [:orange_circle:](https://www.hackerrank.com/challenges/cpp-exception-handling/problem) 20x:cherries: [Cpp exception handling](C++/inheritance/cpp-exception-handling.cpp)
     - [:orange_circle:](https://www.hackerrank.com/challenges/overloading-ostream-operator/problem) 20x:cherries: [Overloading Ostream Operator](C++/inheritance/overloading-ostream-operator.cpp)
     - [:orange_circle:](https://www.hackerrank.com/challenges/messages-order/problem) 40x:cherries: [Messages Order](C++/inheritance/messages-order.cpp)
-7. Other Concepts
+7. Other Concepts :white_check_mark:
     - [:green_circle:](https://www.hackerrank.com/challenges/c-class-templates/problem) 20x:cherries: [C++ Class Templates](C++/other-concepts/c-class-templates.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/preprocessor-solution/problem) 25x:cherries: [Preprocessor Solution](C++/other-concepts/preprocessor-solution.cpp)
     - [:orange_circle:](https://www.hackerrank.com/challenges/operator-overloading/problem) 25x:cherries: [Operator Overloading](C++/other-concepts/operator-overloading.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/overload-operators/problem) 30x:cherries: [Overload Operators](C++/other-concepts/overload-operators.cpp)
-     - [:orange_circle:](https://www.hackerrank.com/challenges/attending-workshops/problem) 35x:cherries: [Attending Workshops](C++/other-concepts/attending-workshops.cpp)
+    - [:orange_circle:](https://www.hackerrank.com/challenges/attending-workshops/problem) 35x:cherries: [Attending Workshops](C++/other-concepts/attending-workshops.cpp)
     - [:orange_circle:](https://www.hackerrank.com/challenges/cpp-class-template-specialization/problem) 35x:cherries: [C++ Class Template Specialization](C++/other-concepts/cpp-class-template-specialization.cpp)
+    - [:red_circle:](https://www.hackerrank.com/challenges/cpp-variadics/problem) 80x:cherries: [C++ Variadics](C++/other-concepts/cpp-variadics.cpp) Variadics and range based loop
+    - [:red_circle:](https://www.hackerrank.com/challenges/bitset-1/problem) 80x:cherries: [Bit Array](C++/other-concepts/bit-array.cpp) poorly described cycle detection...
 # C
 1. Introduction :white_check_mark:
     - [:green_circle:](https://www.hackerrank.com/challenges/hello-world-c/problem) 5x:cherries: ["Hello World!" in C](C/introduction/hello-world-c.c)

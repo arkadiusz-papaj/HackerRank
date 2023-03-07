@@ -5,20 +5,37 @@
 #include <algorithm>
 #include <cassert>
 
-template <typename T>
-auto printKMax(std::vector<T> const& container, unsigned window_size) -> void {
+auto printKMax(std::vector<unsigned> const& container, unsigned window_size) -> void {
     assert(container.size() >= window_size);
-    auto sliding_window = std::deque<T>{container.begin(), container.begin() + window_size};
-    auto max_values = std::vector<T>{};
+    auto sliding_window = std::deque<unsigned>{container.begin(), container.begin() + window_size};
+    auto max_values = std::vector<unsigned>{};
     max_values.reserve(container.size() - window_size + 1);
-    max_values.emplace_back(*std::max_element(sliding_window.begin(), sliding_window.end()));
+
+    auto window_max_value = *std::max_element(sliding_window.begin(), sliding_window.end());
+    max_values.emplace_back(window_max_value);
 
     std::for_each(container.begin() + window_size,
                   container.end(),
-                  [&](auto i){
+                  [&](auto entering_window){
+                    auto leaving_window = sliding_window.front();
                     sliding_window.pop_front();
-                    sliding_window.push_back(i);
-                    max_values.emplace_back(*std::max_element(sliding_window.begin(), sliding_window.end()));
+                    sliding_window.push_back(entering_window);
+
+                    if (leaving_window != window_max_value) {
+                        if (entering_window > window_max_value) {
+                            window_max_value = entering_window;
+                        }
+                    }
+                    else {
+                        if (entering_window >= window_max_value) {
+                            window_max_value = entering_window;
+                        }
+                        else {
+                            window_max_value = *std::max_element(sliding_window.begin(), sliding_window.end());
+                        }
+                    }
+
+                    max_values.emplace_back(window_max_value);
                   });
 
  
@@ -43,7 +60,7 @@ int main()
                     std::back_inserter(vect));
 
         // std::copy(vect.begin(), vect.end(), std::ostream_iterator<unsigned>(std::cout, " "));
-        printKMax<unsigned>(vect, window_size);
+        printKMax(vect, window_size);
         vect.clear();
     }
     
