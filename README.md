@@ -95,6 +95,7 @@ Advanced
 2. Strings
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-stringstream/problem) 10x:cherries: [StringStream](C++/strings/stringstream.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-strings/problem) 10x:cherries: [Strings](C++/strings/strings.cpp)
+    - :construction: [:green_circle:](https://www.hackerrank.com/challenges/attribute-parser/problem) 10x:cherries: [Attribute Parser](C++/strings/attribute-parser.cpp) :construction:
 3. Classes :white_check_mark:
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-struct/problem) 10x:cherries: [Structs](C++/classes/struct.cpp)
     - [:green_circle:](https://www.hackerrank.com/challenges/c-tutorial-class/problem) 10x:cherries: [Class](C++/classes/class.cpp)
@@ -157,5 +158,18 @@ Advanced
 5. Structs and Enums
     - [:green_circle:](https://www.hackerrank.com/challenges/too-high-boxes/problem) 25x:cherries: [Boxes through a Tunnel](C/structs-and-enums/boxes-through-a-tunnel.c)
     - [:orange_circle:](https://www.hackerrank.com/challenges/small-triangles-large-triangles/problem) 30x:cherries: [Small Triangles, Large Triangles](C/structs-and-enums/small-triangles-large-triangles.c)
+
+# Linux Shell
+1. Bash
+    - [:green_circle:](https://www.hackerrank.com/challenges/bash-tutorials-lets-echo/problem) 1x:cherries: [Let's Echo](linux-shell/bash/lets-echo.sh)
+    - [:green_circle:](https://www.hackerrank.com/challenges/bash-tutorials---looping-and-skipping/problem) 1x:cherries: [Looping and Skipping](linux-shell/bash/looping-and-skipping.sh)
+    - [:green_circle:](https://www.hackerrank.com/challenges/bash-tutorials---a-personalized-echo/problem) 1x:cherries: [A Personalized Echo](linux-shell/bash/a-personalized-echo.sh)
+    - [:green_circle:](https://www.hackerrank.com/challenges/bash-tutorials---looping-with-numbers/problem) 1x:cherries: [Looping with Numbers](linux-shell/bash/looping-with-numbers.sh) for loop with range
+    - [:green_circle:](https://www.hackerrank.com/challenges/bash-tutorials---the-world-of-numbers/problem) 1x:cherries: [The World of Numbers](linux-shell/bash/the-world-of-numbers.sh) arithmetic expansion
+    - [:green_circle:](https://www.hackerrank.com/challenges/bash-tutorials---comparing-numbers/problem) 1x:cherries: [Comparing Numbers](linux-shell/bash/comparing-numbers.sh) if elseif else
+    - [:green_circle:](https://www.hackerrank.com/challenges/bash-tutorials---getting-started-with-conditionals/problem) 1x:cherries: [Getting started with conditionals](linux-shell/bash/conditionals.sh)
+    - [:green_circle:](https://www.hackerrank.com/challenges/bash-tutorials---more-on-conditionals/problem) 1x:cherries: [More on Conditionals](linux-shell/bash/more-on-conditionals.sh)
+    - [:green_circle:](https://www.hackerrank.com/challenges/bash-tutorials---arithmetic-operations/problem) 1x:cherries: [Arithmetic Operations](linux-shell/bash/arithmetic-operations.sh) printf and bc -l
+    - [:green_circle:](https://www.hackerrank.com/challenges/bash-tutorials---compute-the-average/problem) 1x:cherries: [Compute the Average](linux-shell/bash/compute-the-average.sh) for loop like C++
 
 [HR_logo]: https://hrcdn.net/fcore/assets/brand/logo-new-white-green-a5cb16e0ae.svg
