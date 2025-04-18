@@ -1,69 +1,58 @@
 #include <iostream>
-#include <unordered_map>
-#include <string>
-#include <string_view>
-// 4 3
-// <tag1 value = "HelloWorld">
-// <tag2 name = "Name1">
-// </tag2>
-// </tag1>
-// tag1.tag2~name
-// tag1~name
-// tag1~value
-struct tag {
-    std::string tag_id{};
-    std::unordered_map<std::string, std::string> attributes{};
-    std::unordered_map<std::string, tag> nested_tags{};
+#include <sstream>
+#include <map>
+#include <stack>
 
-    [[nodiscard]] auto parse_query(std::string_view query) -> std::string_view {
-        auto constexpr atribute_value = std::string_view{"Not found!"};
-
-        if (*query.begin() == '~') {
-            //fetch from attr
-            if (auto attribute = attributes.find({query.begin() + 1, query.end()}); attribute != attributes.end()) {
-                atribute_value = std::string_view{attribute->second};
-            }
-        }
-        else {//some tags
-        // fetch tag name
-        auto tag_separator = query.find_first_of('.');
-        if (tag_separator != std::string_view::npos) {
-            auto tag_name = query.remove_prefix()
-        }
-        else {
-            
-        }
-        // if present in nested tags -> strip its name and sent
-        //  els                      -> return not found
-        }
-
-        return atribute_value;
-    }
-};
-
-struct HRML_document {
-    std::unordered_map<std::string, tag> tags{};
-    [[nodiscard]] auto parse_query(std::string_view query) -> std::optional<std::string_view>;
-};
-
-// [[nodiscard]] auto parse_hrml_line(std::string_view line) -> std::optional<tag> {
-//     auto parsed_tag = std::optional<tag>{}
-//     if (line.at(2) == '/') 
-// }
-
-[[nodiscard]] auto HRML_document::parse_query(std::string_view query) -> std::optional<std::string_view> {
-    auto tag_separator_pos = query.find_first_of('.');
-    auto tag_attribute = query.find_first_of('~');
-
-
-}
+using namespace std;
 
 int main() {
-    auto no_of_HRML_lines = unsigned{};
-    auto no_of_queries = unsigned{};
+    int n, q;
+    cin >> n >> q;
+    cin.ignore(); // Ignore newline after numbers
 
-    std::cin >> no_of_HRML_lines >> no_of_queries;
+    map<string, string> attributes;
+    stack<string> tagStack;
+    
+    // Read HRML input
+    for (int i = 0; i < n; i++) {
+        string line;
+        getline(cin, line);
 
+        stringstream ss(line);
+        string word;
+        ss >> word;
 
-    return EXIT_SUCCESS;
+        if (word[1] == '/') { 
+            // Closing tag (e.g., </tag1>)
+            tagStack.pop();
+        } else { 
+            // Opening tag (e.g., <tag1 name="value">)
+            word = word.substr(1); // Remove '<'
+            if (word.back() == '>') word.pop_back(); // Remove '>'
+            
+            string currentTag = tagStack.empty() ? word : tagStack.top() + "." + word;
+            tagStack.push(currentTag);
+
+            string attr, eq, value;
+            while (ss >> attr >> eq >> value) {
+                if (value.back() == '>') value.pop_back(); // Remove '>'
+                value = value.substr(1, value.length() - 2); // Remove quotes
+                attributes[currentTag + "~" + attr] = value;
+            }
+        }
+    }
+
+    // Process Queries
+    for (int i = 0; i < q; i++) {
+        string query;
+        getline(cin, query);
+        
+        if (attributes.find(query) != attributes.end()) {
+            cout << attributes[query] << endl;
+        } else {
+            cout << "Not Found!" << endl;
+        }
+    }
+
+    return 0;
 }
